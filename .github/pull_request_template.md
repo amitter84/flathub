@@ -8,11 +8,15 @@
 
 <!-- 💡 Please tick and write 'N/A' with a reason if a checklist item below is not applicable 💡 -->
 
-- [ ] Please describe the application briefly. < Please insert the description here >
-- [ ] Please attach a video showcasing the application on Linux using the Flatpak. < Please insert the video here >
-- [ ] The Flatpak ID follows all the rules listed in the [Application ID requirements][appid].
-- [ ] I have read and followed all the [Submission requirements][reqs] and the [Submission guide][reqs2] and I agree to them.
-- [ ] I am an _(please keep whichever is applicable and remove the rest)_ author/developer/upstream contributor to the project.
+- [X] Please describe the application briefly. < Contract bridge is a trick-taking card game for four players, divided into two partnerships sitting opposite each other (North-South vs. East-West).
+
+zBridge is an online bridge club where you can learn and play bridge. It is a full bridge platform with multiple features. 
+
+Play with Jethro, a competitive bridge bot for 2/1 game forcing, try our interactive tutorials, join multiplayer games in social and rated rooms, or analyse custom/random deals in the analysis room to practice different bidding and playing scenarios with hints from the AI. Compose bidding polls or bridge articles. >
+- [X] Please attach a video showcasing the application on Linux using the Flatpak. < https://youtu.be/tibrdEAvieI >
+- [X] The Flatpak ID follows all the rules listed in the [Application ID requirements][appid].
+- [X] I have read and followed all the [Submission requirements][reqs] and the [Submission guide][reqs2] and I agree to them.
+- [X] I am a developer of the project.
       If not, I contacted upstream developers about this submission. **Link:**
 
 <!-- 💡 Please mention below the GitHub usernames of any additional maintainers needed (if any) 💡 -->
