@@ -58,3 +58,5 @@ modules:
     path: zbridge-club.sh
   - type: file
     path: electron-shasums.txt
+  - type: file
+    path: club.zbridge.zbridge.metainfo.xml
