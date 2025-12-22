@@ -35,14 +35,12 @@ modules:
   - find node_modules/app-builder-bin/linux -name app-builder -exec chmod +x {} +
   - npx electron-builder --linux --dir
   - cp -r dist/linux*-unpacked /app/zbridge-club
-  - install -Dm0755 zbridge-club.sh /app/bin/zbridge-club
-  - install -Dm644 club.zbridge.zbridge.desktop /app/share/applications/club.zbridge.zbridge.desktop
   - install -Dm644 club.zbridge.zbridge.metainfo.xml /app/share/metainfo/club.zbridge.zbridge.metainfo.xml
-  - install -Dm644 icon1.png /app/share/icons/hicolor/512x512/apps/club.zbridge.zbridge.png
+  - install -Dm644 icon.png /app/share/icons/hicolor/512x512/apps/club.zbridge.zbridge.png
   sources:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
-    tag: v1.0.5
+    tag: v1.0.7
   - dest: flatpak-node/cache/electron
     only-arches:
     - x86_64
@@ -63,7 +61,7 @@ modules:
   - type: file
     path: club.zbridge.zbridge.metainfo.xml
   - type: file
-    path: icon1.png
+    path: icon.png
   - type: file
     path: screenshots/screenshot1.jpg
   - type: file
@@ -78,12 +76,12 @@ modules:
   - install -Dm755 /usr/bin/true /app/bin/zbridge-club
   - install -Dm644 club.zbridge.zbridge.desktop /app/share/applications/club.zbridge.zbridge.desktop
   - install -Dm644 club.zbridge.zbridge.metainfo.xml /app/share/metainfo/club.zbridge.zbridge.metainfo.xml
-  - install -Dm644 icon1.png /app/share/icons/hicolor/512x512/apps/club.zbridge.zbridge.png
+  - install -Dm644 icon.png /app/share/icons/hicolor/512x512/apps/club.zbridge.zbridge.png
   sources:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
-    tag: v1.0.5
+    tag: v1.0.7
   - type: file
     path: club.zbridge.zbridge.metainfo.xml
   - type: file
-    path: icon1.png
+    path: icon.png
