@@ -63,11 +63,13 @@ modules:
   - type: file
     path: icon.png
   - type: file
-    path: screenshots/screenshot1.jpg
+    path: screenshots/Game table.jpg
   - type: file
-    path: screenshots/screenshot2.jpg
+    path: screenshots/Analysis Room.jpg
   - type: file
-    path: screenshots/screenshot3.jpg
+    path: screenshots/Game Rooms.jpg
+  - type: file
+    path: screenshots/Interactive tutorials.jpg
 
 - name: zbridge-stub
   buildsystem: simple
